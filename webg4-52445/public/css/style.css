@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: skyblue;
+    padding: 20px;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+}
+header h1{
+    color: aliceblue;
+}
+.header-top {
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: left;
+}
+
+.header-bottom a {
+    margin: 0 10px;
+    padding-left: 20px;
+
+}
+footer h3{
+  color: white;
+}
+h2{
+  padding: 20px;
+  border: 2px solid ;
+  border-radius: 50px 20px;
+  background-color: skyblue;
+  color: white;
+  width: fit-content;
+}
+a {
+  text-decoration: none;
+  color: tomato;
+}
+footer {
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+img {
+    width: 150px;
+    height: auto;
+    padding: 25px;
+}
+
+table.paleBlueRows {
+    font-family: "Times New Roman", Times, serif;
+    border: 1px solid dodgerblue;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.paleBlueRows td, table.paleBlueRows th {
+    border: 1px solid dodgerblue;
+    padding: 3px 2px;
+  }
+  table.paleBlueRows tbody td {
+    font-size: 13px;
+  }
+  table.paleBlueRows tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.paleBlueRows thead {
+    background: skyblue;
+    border-bottom: 5px solid dodgerblue;
+  }
+  table.paleBlueRows thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid dodgerblue;
+  }
+  table.paleBlueRows thead th:first-child {
+    border-left: none;
+  }
+  
+  table.paleBlueRows tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    background: #D0E4F5;
+    border-top: 3px solid dodgerblue;
+  }
+  table.paleBlueRows tfoot td {
+    font-size: 14px;
+  }
+
+  #details{
+    padding: 10px;
+    background-color: darkgray;
+  }
